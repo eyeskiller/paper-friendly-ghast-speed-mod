@@ -1,5 +1,7 @@
 # Happy Ghast Speed Plugin
 
+![Happy Ghast Logo](logo.png)
+
 A Minecraft Paper plugin for version 26.1.2 that allows server administrators to dynamically control the movement speed of the "Happy Ghast" mob across the entire server.
 
 ## Features
