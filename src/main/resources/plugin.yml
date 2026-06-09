@@ -1,0 +1,10 @@
+name: HappyGhastSpeed
+version: 1.0-SNAPSHOT
+main: com.example.happyghast.HappyGhastSpeedPlugin
+api-version: '1.21'
+commands:
+  happyghastspeed:
+    description: Modify the speed of Happy Ghasts
+    usage: /happyghastspeed <number> OR /happyghastspeed <increase|decrease> <number>
+    aliases:
+      - hgspeed

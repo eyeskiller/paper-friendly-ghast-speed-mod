@@ -1,0 +1,3 @@
+# Default speed for Happy Ghasts. This is applied to GENERIC_MOVEMENT_SPEED / FLYING_SPEED
+# Standard Minecraft ghast speed might vary, adjust as needed.
+global-happy-ghast-speed: 0.3
