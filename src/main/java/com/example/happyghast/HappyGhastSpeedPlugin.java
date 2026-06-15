@@ -7,11 +7,15 @@ import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.plugin.java.JavaPlugin;
+import online.bechatbot.analytics.AnalyticsTracker;
 
 public class HappyGhastSpeedPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        AnalyticsTracker analytics = new AnalyticsTracker(this, "https://analytics.bechatbot.online/api/track");
+        analytics.sendEvent("STARTUP");
+
         // Save default config if not exists
         saveDefaultConfig();
 
