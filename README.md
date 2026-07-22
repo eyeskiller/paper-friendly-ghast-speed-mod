@@ -28,6 +28,10 @@ A Minecraft Paper plugin for version 26.1.2 that allows server administrators to
 
 - `happyghast.speed` - Required to use the `/happyghastspeed` command.
 
+## External Data Collection
+
+This plugin uses [bStats](https://bstats.org/) (plugin ID 32235) to collect anonymous usage statistics such as server version, Java version, OS, and player count. This data is sent to `https://bStats.org/` and is used to track plugin adoption. No personal or player-identifying data is collected. Server owners can disable bStats in the `plugins/bStats/config.yml` file.
+
 ## Setup & Compilation
 
 This plugin uses Gradle. To build the plugin locally:
